@@ -33,6 +33,7 @@ pip install -r requirements.txt
 mv .env_exapmle .env
 ```
 10. Токен полученный в п.6 записать в .env.
+
 Пример .env:
 ```text
 EVERNOTE_PERSONAL_TOKEN='Ваш токен' 
