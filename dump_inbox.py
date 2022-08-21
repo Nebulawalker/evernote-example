@@ -31,7 +31,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(
         description='Dumps notes from Evernote inbox to console'
     )
-    parser.add_argument('number',
+    parser.add_argument('-number',
                         nargs='?',
                         type=int,
                         default=10,
